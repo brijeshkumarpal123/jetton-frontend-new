@@ -1053,7 +1053,10 @@
     .app-viewport [style*="background: #202"],
     .app-viewport [style*="background:#202"] { background:#F2F7FA !important; }
     .splash-title span, .mining-hero-card [style*="color: var(--gold-primary)"] { color:#079FE8 !important; }
-
+/* Keep withdrawal fee popup above withdrawal popup */
+#withdrawalFeeModal {
+    z-index: 2100 !important;
+}
   </style>
 </head>
 <body>
